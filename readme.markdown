@@ -3,10 +3,10 @@ A server which sends and recieves multicast JSON messages to a single IP address
 # Example Usage
 
 ```javascript
-var send = require("multicast")(function(message, address, port){
-    console.log(address + ":" + port + " says " + JSON.stringify(message));
+var send = require('multicast')(function(message, address, port){
+    console.log(address + ':' + port + ' says ' + JSON.stringify(message));
 });
-send("hello world");
+send('hello world');
 send({complexObject:[1,3,5]});
 ```
 
