@@ -1,6 +1,6 @@
 A server which sends and recieves multicast JSON messages to a single IP address and port number using UDP.
 
-#Example Usage
+# Example Usage
 
 ```js
 var send = require("multicast")(function(message, address, port){
