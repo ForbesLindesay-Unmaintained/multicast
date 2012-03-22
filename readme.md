@@ -2,7 +2,7 @@ A server which sends and recieves multicast JSON messages to a single IP address
 
 # Example Usage
 
-```js
+```javascript
 var send = require("multicast")(function(message, address, port){
     console.log(address + ":" + port + " says " + JSON.stringify(message));
 });
