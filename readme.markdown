@@ -1,5 +1,9 @@
 A server which sends and recieves multicast JSON messages to a single IP address and port number using UDP.
 
+# Installation
+
+    npm install multicast
+
 # Example Usage
 
 ```javascript
