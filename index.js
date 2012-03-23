@@ -18,8 +18,7 @@ module.exports = function multicast(onMessage, options) {
     var server = dgram.createSocket(options.socketType||"udp4");
 
     server.on("listening", function () {
-        var address = server.address();
-        console.log("server listening " + address.address + ":" + address.port);
+        console.log("Multicast server listening " + ip + ":" + port);
     });
 
     server.bind(port);
