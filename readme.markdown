@@ -1,5 +1,7 @@
 # Multicast
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/multicast.svg)](https://greenkeeper.io/)
+
 A server which sends and recieves multicast JSON messages to a single IP address and port number using UDP.
 
 ## Installation
